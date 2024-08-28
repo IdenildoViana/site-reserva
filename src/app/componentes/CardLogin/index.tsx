@@ -3,7 +3,7 @@ import { FormEvent, useState } from "react";
 function CardLogin() {
   return (
     <div>
-      <form className="flex flex-col gap-5 justify-center rounded-lg items-center mr-96 mb-80 mt-80 h-96 w-3/5 bg-blue-950">
+      <form className="flex flex-col gap-5 justify-center rounded-lg items-center mr-96 mb-80 mt-36 h-96 w-3/5 bg-blue-950">
         <p className="text-3xl  font-semibold">Login</p>
 
         <div className="flex flex-col">

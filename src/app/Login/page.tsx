@@ -1,7 +1,5 @@
 import CardLogin from "../componentes/CardLogin";
 import TextLogin from "../componentes/TextLogin";
-import { CircleChevronLeft } from "lucide-react";
-import Link from "next/link";
 import Header from "../componentes/Header";
 
 export default function Login() {
