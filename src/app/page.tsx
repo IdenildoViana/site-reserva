@@ -5,9 +5,9 @@ import CardAuditorio from "./componentes/CardAuditorio";
 
 export default function Home() {
   return (
-    <main className="h-screen overflow-y-auto mx-auto pb-12 bg-[#ACB5D3] ">
+    <main className="h-screen overflow-y-auto mx-auto pb-12 items-center justify-center bg-[#ACB5D3] ">
       <Header />
-      <div className=" ">
+      <div className=" flex flex-col gap-20 items-center ">
         <CardSalas />
         <CardLab />
         <CardAuditorio />
